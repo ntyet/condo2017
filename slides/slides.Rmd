@@ -1,0 +1,101 @@
+---
+title: "The Condo Cluster"
+author: Will Landau (modified by Yet Nguyen)
+date: "`r Sys.Date()`"
+output: 
+  ioslides_presentation:
+    css: style.css
+    incremental: true
+    transition: faster
+---
+
+```{r, echo=FALSE}
+library(knitr)
+knitr::knit_hooks$set(inline = as.character)
+knitr::opts_chunk$set(cache=T, echo = F, fig.height = 5, results="hide", message=F, warning = F)
+knitr::opts_knit$set(eval.after = 'fig.cap')
+```
+
+# Setup
+
+## Access
+
+- Contact [hpc-help@iastate.edu](hpc-help@iastate.edu) for an account. 
+- Install [Google Authenticator](http://hpcgroup.public.iastate.edu/HPC/Condo/IGA.html) on a mobile phone.
+- Follow the instructions in the setup email.
+
+## Setup instruction email
+
+![](config.png)
+
+## Google Authenticator displays verification codes on your phone.
+
+![](auth.jpg)
+
+
+## Google Authenticator displays verification codes on your Chrome.
+
+![](GAuthAddon.png)
+
+## Login
+
+- Choose a login node.
+    - headnode: `ssh <user>@condo.its.iastate.edu`
+    
+- Enter the verification code from Google Authenticator.
+- Enter your password.
+
+
+# Usage
+
+## Folders
+
+- Home directory for miscellaneous files: `/home/<user>`
+- Most cluster jobs: `/work/<group>/<user>`
+- Cluster jobs with large data files: `/ptmp/<group>/<user>`
+
+
+## Transfer  Data 
+
+- Use [FileZilla](https://www.hpc.iastate.edu/guides/file-transfers) 
+
+
+
+## Submit an R job on Condo.  
+
+- Log in and set up your work directory
+
+```
+ssh <user>@condo.its.iastate.edu
+or
+ssh<user>@condo2017.its.iastate.edu
+```
+
+```
+mkdir /work/<group>/<user>
+cd /work/<group>/<user>
+```
+
+- [Create a `simple.script`](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster/slurm-job-script-generator)
+- Submit the job with 
+
+```
+qsub simple.script
+```
+
+- Check the job status with `qstat -u <user>` or `qtop <jobID> `.
+- If needed, delete the job with `qdel <jobID>`.
+
+# Resources
+
+## Condo links
+
+- [hpc website](https://www.hpc.iastate.edu/)
+
+- [hpc-help@iastate.edu](hpc-help@iastate.edu)
+
+- The HPC group maintains a [script writer](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster/slurm-job-script-generator)
+to help us prepare jobs.
+
+
+
