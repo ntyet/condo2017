@@ -4,10 +4,10 @@
 #    sbatch thefilename
 # job standard output will go to the file slurm-%j.out (where %j is the job ID)
 
-#SBATCH --time=0:30:00   # walltime limit (HH:MM:SS)
+#SBATCH --time=0:10:00   # walltime limit (HH:MM:SS)
 #SBATCH --nodes=1   # number of nodes
-#SBATCH --ntasks-per-node=16   # 16 processor core(s) per node
-#SBATCH --job-name="simple"
+#SBATCH --ntasks-per-node=6   # 6 processor core(s) per node
+#SBATCH --job-name="example"
 #SBATCH --mail-user=ntyet@iastate.edu   # email address
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END
