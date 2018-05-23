@@ -16,5 +16,6 @@
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
 
 module load r
+module load r-ggplot2
 R CMD BATCH Rjob.R
 exit
