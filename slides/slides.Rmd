@@ -1,6 +1,6 @@
 ---
 title: "The Condo Cluster"
-author: Will Landau (modified by Yet Nguyen)
+author: Yet Nguyen (modified from Will Landau's talk)
 date: "`r Sys.Date()`"
 output: 
   ioslides_presentation:
@@ -21,7 +21,7 @@ knitr::opts_knit$set(eval.after = 'fig.cap')
 ## Access
 
 - Contact [hpc-help@iastate.edu](hpc-help@iastate.edu) for an account. 
-- Install [Google Authenticator](http://hpcgroup.public.iastate.edu/HPC/Condo/IGA.html) on a mobile phone.
+- Install [Google Authenticator](https://www.hpc.iastate.edu/guides/condo-2017/access-and-login/google-auth-on-android) on a mobile phone or add-on extension on web browser, see, e.g., [Chrome add-on](https://chrome.google.com/webstore/detail/gauth-authenticator/ilgcnhelpchnceeipipijaljkblbcobl?hl=en).
 - Follow the instructions in the setup email.
 
 ## Setup instruction email
@@ -56,8 +56,11 @@ knitr::opts_knit$set(eval.after = 'fig.cap')
 
 
 ## Transfer  Data 
-
+- Use [spc](https://www.hpc.iastate.edu/guides/file-transfers) 
+    
 - Use [FileZilla](https://www.hpc.iastate.edu/guides/file-transfers) 
+
+- Use [Globus Online](https://www.hpc.iastate.edu/guides/file-transfers)
 
 
 
@@ -112,11 +115,16 @@ to help us prepare jobs.
 - [*Advanced R*, Hadley Wickham](http://adv-r.had.co.nz/)
 - [*R for Data Science*, Garrett Grolemund, Hadley Wickham](http://r4ds.had.co.nz/)
 - [*bookdown: Authoring Books and Technical Documents with R Markdown*, Yihue Xie](https://bookdown.org/yihui/bookdown/)
-- [*blogdown:blogdown: Creating Websites with R Markdown*, Yihui Xie, Amber Thomas, Alison Presmanes Hill](https://bookdown.org/yihui/blogdown/)
+- [*blogdown: Creating Websites with R Markdown*, Yihui Xie, Amber Thomas, Alison Presmanes Hill](https://bookdown.org/yihui/blogdown/)
 
 ## Some Rtools for  Reproducible Research 
-
+- [*SISBID Workshop, Reproducible Research*, University of Washington](https://www.biostat.washington.edu/suminst/sisbid2017/modules/BD1703)
 - [*Steps toward reproducible research*, Karl Broman](https://www.biostat.wisc.edu/~kbroman/presentations/steps2rr.pdf)
 - [*drake* R package, Will Landau et. al](https://github.com/ropensci/drake)
 
+## On Reading, Writing, and Reviewing Papers
+- [*read*](https://github.com/jtleek/readingpapers)
+- [*write*](https://github.com/jtleek/firstpaper)
+- [*review*](http://matt.might.net/articles/how-to-peer-review/) or [*review*](https://github.com/jtleek/reviews) 
 
+## Thank you!
