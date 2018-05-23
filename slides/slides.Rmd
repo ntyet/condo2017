@@ -111,6 +111,11 @@ to help us prepare jobs.
 - *How to Write a Lot: A Practical Guide to Productive Academic Writing*, Paul J. Silvia
     - https://www.amazon.com/How-Write-Lot-Practical-Productive/dp/1591477433
 
+## ISU Resources about Writing
+
+- [*Graduate Peer Review Groups*](https://cce.grad-college.iastate.edu/gpwg)
+- [*English Writing Consultants*](https://cce.grad-college.iastate.edu/gpmp/englwrit)
+
 ## Some Books about R, Data Science
 - [*Advanced R*, Hadley Wickham](http://adv-r.had.co.nz/)
 - [*R for Data Science*, Garrett Grolemund, Hadley Wickham](http://r4ds.had.co.nz/)
@@ -125,6 +130,5 @@ to help us prepare jobs.
 ## On Reading, Writing, and Reviewing Papers
 - [*read*, Jeff Leek](https://github.com/jtleek/readingpapers)
 - [*write*, Jeff Leek](https://github.com/jtleek/firstpaper)
-- [*review*, Matt Might](http://matt.might.net/articles/how-to-peer-review/) or [*review*, J Leek](https://github.com/jtleek/reviews) 
+- [*review*, Matt Might](http://matt.might.net/articles/how-to-peer-review/) or [*review*, Jeff Leek](https://github.com/jtleek/reviews) 
 
-## Thank you!
