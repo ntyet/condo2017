@@ -123,8 +123,8 @@ to help us prepare jobs.
 - [*drake* R package, Will Landau et. al](https://github.com/ropensci/drake)
 
 ## On Reading, Writing, and Reviewing Papers
-- [*read*](https://github.com/jtleek/readingpapers)
-- [*write*](https://github.com/jtleek/firstpaper)
-- [*review*](http://matt.might.net/articles/how-to-peer-review/) or [*review*](https://github.com/jtleek/reviews) 
+- [*read*, Jeff Leek](https://github.com/jtleek/readingpapers)
+- [*write*, Jeff Leek](https://github.com/jtleek/firstpaper)
+- [*review*, Matt Might](http://matt.might.net/articles/how-to-peer-review/) or [*review*, J Leek](https://github.com/jtleek/reviews) 
 
 ## Thank you!
